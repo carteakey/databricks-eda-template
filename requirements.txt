@@ -1,0 +1,37 @@
+# Databricks EDA Project Dependencies
+# Install with: pip install -r requirements.txt
+# Or use uv: uv sync (recommended)
+
+# Core data analysis
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.17.0
+
+# API and utilities
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Databricks
+databricks-cli>=0.18.0
+
+# Jupyter ecosystem
+jupyter>=1.0.0
+jupytext>=1.15.0
+ipykernel>=6.25.0
+
+# Scientific computing
+scipy>=1.11.0
+
+# Security (requests needs these)
+certifi>=2023.7.22
+urllib3>=2.0.0
+
+# Optional dev dependencies (uncomment if needed)
+# pytest>=7.4.0
+# black>=23.7.0
+# ruff>=0.0.285
+# mypy>=1.5.0
