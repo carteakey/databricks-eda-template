@@ -1,0 +1,131 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+.virtualenv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Databricks
+.databricks/
+databricks.cfg
+
+# Data files
+*.csv
+*.parquet
+*.json
+*.xlsx
+*.xls
+data/*
+!data/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# Temp files
+temp/
+tmp/
+*.tmp
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Ruff
+.ruff_cache/
+
+# uv
+.uv/
+
+# Notebooks converted to .py (jupytext generates these)
+# Uncomment if you want to ignore .py versions of notebooks
+# notebooks/*.py
+
+# Keep temp_code directory structure but ignore contents during development
+# Uncomment these if you want to ignore temp volleying code
+# notebooks/temp_code/*.py
+# !notebooks/temp_code/.gitkeep
+
+# Local data cache
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+
+# Documentation builds
+docs/_build/
+docs/.doctrees/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Mac
+._*
